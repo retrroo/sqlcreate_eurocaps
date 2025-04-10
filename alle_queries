@@ -1,0 +1,90 @@
+#aantal_retourproducten_kapottecapsule
+
+SELECT 
+  rp.ProductID,
+  COUNT(*) AS AantalKapotte,
+  sp.Omschrijving AS SoortProduct
+FROM retour_product rp
+JOIN retour r ON rp.RetourID = r.RetourID
+JOIN product p ON rp.ProductID = p.ProductID
+JOIN soortproduct sp ON p.SoortProductID = sp.SoortProductID
+WHERE rp.RedenSpecifiek = 'Kapotte capsule'
+GROUP BY rp.ProductID, sp.Omschrijving;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#avg_product_returned
+
+SELECT 
+  ROUND(AVG(AantalRetour), 2) AS GemiddeldAantalRetour
+FROM retour_product;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#afgekeurd_aantal
+
+SELECT 
+  RedenAfkeur,
+  SUM(AantalAfgekeurd) AS TotaalAfgekeurd
+FROM kwaliteitscontrole
+GROUP BY RedenAfkeur;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#last_products10
+
+SELECT 
+  ProductID,
+  P_DatumTijdEind,
+  P_Machine
+FROM packaging
+ORDER BY P_DatumTijdEind DESC
+LIMIT 10;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#output_data
+
+SELECT 
+  'soort_partner' AS tabel, COUNT(*) AS aantal FROM soort_partner
+UNION
+SELECT 'partner', COUNT(*) FROM partner
+UNION
+SELECT 'partnercontact', COUNT(*) FROM partnercontact
+UNION
+SELECT 'soortproduct', COUNT(*) FROM soortproduct
+UNION
+SELECT 'product', COUNT(*) FROM product
+UNION
+SELECT 'levering', COUNT(*) FROM levering
+UNION
+SELECT 'leveringregel', COUNT(*) FROM leveringregel
+UNION
+SELECT 'grinding', COUNT(*) FROM grinding
+UNION
+SELECT 'grinding_product', COUNT(*) FROM grinding_product
+UNION
+SELECT 'filling', COUNT(*) FROM filling
+UNION
+SELECT 'filling_product', COUNT(*) FROM filling_product
+UNION
+SELECT 'packaging', COUNT(*) FROM packaging
+UNION
+SELECT 'packaging_product', COUNT(*) FROM packaging_product
+UNION
+SELECT 'retour', COUNT(*) FROM retour
+UNION
+SELECT 'retour_product', COUNT(*) FROM retour_product
+UNION
+SELECT 'kwaliteitscontrole', COUNT(*) FROM kwaliteitscontrole;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#retour_aantal
+
+SELECT 
+  ProductID,
+  SUM(AantalRetour) AS TotaalRetourAantal
+FROM retour_product
+GROUP BY ProductID
+ORDER BY TotaalRetourAantal DESC;
