@@ -1,0 +1,17 @@
+tabel,aantal
+soort_partner,2
+partner,5
+partnercontact,5
+soortproduct,2
+product,10
+levering,5
+leveringregel,10
+grinding,5
+grinding_product,9
+filling,5
+filling_product,10
+packaging,3
+packaging_product,7
+retour,5
+retour_product,8
+kwaliteitscontrole,5

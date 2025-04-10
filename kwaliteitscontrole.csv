@@ -1,0 +1,6 @@
+KwaliteitID,ProductID,ControleDatum,StatusRetour,RedenAfkeur,AantalAfgekeurd
+1,5,2024-08-26,OK,Andere reden,0
+2,9,2024-11-01,NOK,Verkeerd gewicht,2
+3,3,2024-11-03,NOK,Andere reden,10
+4,6,2025-01-14,NOK,Andere reden,0
+5,4,2024-12-08,OK,Andere reden,0

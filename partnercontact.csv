@@ -1,0 +1,6 @@
+PartnerContactID,Voornaam,Achternaam,Functie,Email,TelNr,PartnerID
+1,Voornaam1,Achternaam1,Manager,contact1@bedrijf.nl,06-12345671,4
+2,Voornaam2,Achternaam2,Manager,contact2@bedrijf.nl,06-12345672,2
+3,Voornaam3,Achternaam3,Manager,contact3@bedrijf.nl,06-12345673,1
+4,Voornaam4,Achternaam4,Manager,contact4@bedrijf.nl,06-12345674,3
+5,Voornaam5,Achternaam5,Manager,contact5@bedrijf.nl,06-12345675,5

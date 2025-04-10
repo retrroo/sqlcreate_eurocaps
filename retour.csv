@@ -1,0 +1,6 @@
+RetourID,RetourDatum,RedenRetour,StatusRetour,PartnerID,Contactpersoon
+1,2024-08-09,Verkeerde levering,Geaccepteerd,4,Persoon_1
+2,2024-09-30,Beschadigd,Geweigerd,1,Persoon_2
+3,2025-02-03,Klant ontevreden,Geaccepteerd,3,Persoon_3
+4,2024-06-01,Beschadigd,Geweigerd,2,Persoon_4
+5,2025-01-19,Verkeerde levering,Geaccepteerd,3,Persoon_5

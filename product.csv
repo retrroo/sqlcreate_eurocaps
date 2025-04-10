@@ -1,0 +1,11 @@
+ProductID,ProductHTDatum,CStatusProduct,FStatusProduct,PStatusProduct,SoortProductID
+1,2025-04-04 18:02:15,OK,NOK,OK,2
+2,2025-03-02 18:02:15,NOK,OK,Initieel,2
+3,2025-02-22 18:02:15,NOK,Initieel,NOK,1
+4,2025-02-01 18:02:15,OK,Initieel,OK,1
+5,2025-02-20 18:02:15,Initieel,OK,NOK,1
+6,2025-01-19 18:02:15,Initieel,Initieel,Initieel,2
+7,2025-03-08 18:02:15,NOK,Initieel,Initieel,2
+8,2025-03-18 18:02:15,NOK,OK,NOK,2
+9,2025-01-07 18:02:15,Initieel,NOK,NOK,1
+10,2025-03-12 18:02:15,Initieel,Initieel,Initieel,1
