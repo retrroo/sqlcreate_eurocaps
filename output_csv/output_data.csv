@@ -1,17 +1,19 @@
-tabel,aantal
+Row Labels,Sum of aantal
+filling,15
+filling_product,94
+grinding,15
+grinding_product,91
+kwaliteitscontrole,50
+levering,20
+leveringregel,92
+packaging,15
+packaging_product,91
+partner,10
+partnercontact,10
+product,50
+retour,20
+retour_product,94
 soort_partner,2
-partner,5
-partnercontact,5
-soortproduct,2
-product,10
-levering,5
-leveringregel,10
-grinding,5
-grinding_product,9
-filling,5
-filling_product,10
-packaging,3
-packaging_product,7
-retour,5
-retour_product,8
-kwaliteitscontrole,5
+soortproduct,3
+ ,
+Grand Total,672

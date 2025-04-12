@@ -1,5 +1,6 @@
-ProductID,AantalKapotteCapsules,SoortProduct
-1,1,Verpakking
-3,1,"Koffie capsule"
-8,1,Verpakking
-9,1,"Koffie capsule"
+Row Labels,Sum of Sum of Count of ProductID
+Decaf,5
+Espresso,12
+Grand Total,78
+Lungo,9
+Grand Total,104
