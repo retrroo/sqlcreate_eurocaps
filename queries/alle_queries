@@ -34,11 +34,12 @@ GROUP BY RedenAfkeur;
 #last_products10
 
 SELECT 
-  ProductID,
-  P_DatumTijdEind,
-  P_Machine
-FROM packaging
-ORDER BY P_DatumTijdEind DESC
+  pp.ProductID,
+  p.P_DatumTijdEind,
+  p.P_Machine
+FROM packaging_product pp
+JOIN packaging p ON pp.PackagingID = p.PackagingID
+ORDER BY p.P_DatumTijdEind DESC
 LIMIT 10;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
