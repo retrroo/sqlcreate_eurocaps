@@ -1,6 +1,11 @@
 PartnerContactID,Voornaam,Achternaam,Functie,Email,TelNr,PartnerID
-1,Voornaam1,Achternaam1,Manager,contact1@bedrijf.nl,06-12345671,4
-2,Voornaam2,Achternaam2,Manager,contact2@bedrijf.nl,06-12345672,2
-3,Voornaam3,Achternaam3,Manager,contact3@bedrijf.nl,06-12345673,1
-4,Voornaam4,Achternaam4,Manager,contact4@bedrijf.nl,06-12345674,3
-5,Voornaam5,Achternaam5,Manager,contact5@bedrijf.nl,06-12345675,5
+1,Jan,Jansen,Inkoper,contact1@bedrijf.nl,0612345600,1
+2,Piet,Peters,Inkoper,contact2@bedrijf.nl,0612345601,2
+3,Klaas,De Vries,Inkoper,contact3@bedrijf.nl,0612345602,3
+4,Anna,Bakker,Inkoper,contact4@bedrijf.nl,0612345603,4
+5,Eva,Visser,Inkoper,contact5@bedrijf.nl,0612345604,5
+6,Tom,Smit,Inkoper,contact6@bedrijf.nl,0612345605,6
+7,Sara,Bos,Inkoper,contact7@bedrijf.nl,0612345606,7
+8,John,Mulder,Inkoper,contact8@bedrijf.nl,0612345607,8
+9,Lisa,Meijer,Inkoper,contact9@bedrijf.nl,0612345608,9
+10,Mark,Koning,Inkoper,contact10@bedrijf.nl,0612345609,10

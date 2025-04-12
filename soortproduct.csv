@@ -1,3 +1,4 @@
 SoortProductID,Omschrijving,Gewicht,Afmeting,Materiaal
-1,Koffie capsule,5.2,2x2,Aluminium
-2,Verpakking,15.0,10x10,Plastic
+1,Espresso,5.2,40x30,Aluminium
+2,Lungo,5.5,42x32,Plastic
+3,Decaf,5.3,41x31,Aluminium

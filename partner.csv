@@ -1,6 +1,11 @@
 PartnerID,Bedrijfsnaam,Straatnaam,Huisnummer,Postcode,Plaats,Land,Email,TelNr,SoortPartnerID
-1,Bedrijf 1,Straat 1,50,6265AB,Rotterdam,Nederland,info1@bedrijf.nl,010-000001,2
-2,Bedrijf 2,Straat 2,31,7028AB,Rotterdam,Nederland,info2@bedrijf.nl,010-000002,2
-3,Bedrijf 3,Straat 3,2,1287AB,Rotterdam,Nederland,info3@bedrijf.nl,010-000003,1
-4,Bedrijf 4,Straat 4,89,7835AB,Rotterdam,Nederland,info4@bedrijf.nl,010-000004,2
-5,Bedrijf 5,Straat 5,95,3763AB,Rotterdam,Nederland,info5@bedrijf.nl,010-000005,1
+1,Bedrijf 1,Straat,1,1234AB,Rotterdam,Nederland,info1@bedrijf.nl,0101234500,2
+2,Bedrijf 2,Straat,2,1234AB,Rotterdam,Nederland,info2@bedrijf.nl,0101234501,1
+3,Bedrijf 3,Straat,3,1234AB,Rotterdam,Nederland,info3@bedrijf.nl,0101234502,1
+4,Bedrijf 4,Straat,4,1234AB,Rotterdam,Nederland,info4@bedrijf.nl,0101234503,2
+5,Bedrijf 5,Straat,5,1234AB,Rotterdam,Nederland,info5@bedrijf.nl,0101234504,2
+6,Bedrijf 6,Straat,6,1234AB,Rotterdam,Nederland,info6@bedrijf.nl,0101234505,2
+7,Bedrijf 7,Straat,7,1234AB,Rotterdam,Nederland,info7@bedrijf.nl,0101234506,2
+8,Bedrijf 8,Straat,8,1234AB,Rotterdam,Nederland,info8@bedrijf.nl,0101234507,1
+9,Bedrijf 9,Straat,9,1234AB,Rotterdam,Nederland,info9@bedrijf.nl,0101234508,1
+10,Bedrijf 10,Straat,10,1234AB,Rotterdam,Nederland,info10@bedrijf.nl,0101234509,2
